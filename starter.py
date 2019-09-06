@@ -1,6 +1,6 @@
 from microbit import *
-from joystick import button_press, joystick_push
-from game import x_road, y_road, road
+from joystick import button_press
+from game import road
 
 # Please tag us if used!
 # We'd love to see what you make:

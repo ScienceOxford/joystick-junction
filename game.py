@@ -21,3 +21,9 @@ def road():
             y_road = 0
         else:
             y_road += 1
+
+def get_road_pos():
+    return x_road, y_road
+
+def get_road_wait():
+    return wait_road
