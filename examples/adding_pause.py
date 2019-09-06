@@ -9,7 +9,6 @@ from game import road
 x = 0
 y = 0
 b = 9
-lives = 9
 pause = False
 
 while True:
