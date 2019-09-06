@@ -25,9 +25,9 @@ while True:
             x += 1
         if button == 'D' and x > 0:
             x -= 1
-        road_location = get_road_pos()
-        pixel_location = x, y
-        if pixel_location == road_location:
+        obstacle_location = get_road_pos()
+        player_location = x, y
+        if player_location == obstacle_location:
             lives -= 1
     else:        
         display.show(Image.NO)
